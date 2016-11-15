@@ -143,6 +143,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="nuget\AlbecUteis.nupkg" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
