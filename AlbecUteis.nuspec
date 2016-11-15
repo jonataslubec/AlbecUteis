@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>AlbecUteis</id>
+        <version>1.0.2</version>
+        <title>AlbecUteis</title>
+        <authors>Jonatas Lubec</authors>
+        <owners>Jonatas Lubec</owners>
+        <licenseUrl>https://github.com/jonataslubec/AlbecUteis/blob/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/jonataslubec/AlbecUteis</projectUrl>
+        <iconUrl>http://albec.azurewebsites.net/img/AL-BEC_LOGO.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Conjunto de soluções para ajudar no desenvolvimento de projetos.</description>
+        <summary>Conjunto de soluções para ajudar no desenvolvimento de projetos.</summary>
+        <releaseNotes>Correções na classe MVC</releaseNotes>
+        <tags>SQLite email pop3 smtp dao mvc</tags>
+        <dependencies>
+            <dependency id="EntityFramework" version="6.0.0" />
+            <dependency id="Microsoft.WindowsAzure.ConfigurationManager" version="3.2.1" />
+            <dependency id="Newtonsoft.Json" version="6.0.8" />
+            <dependency id="OpenPop.NET" version="2.0.6.1120" />
+            <dependency id="WindowsAzure.Storage" version="7.0.0" />
+            <dependency id="Microsoft.Azure.KeyVault.Core" version="1.0.0" />
+            <dependency id="Microsoft.Data.Edm" version="5.6.4" />
+            <dependency id="Microsoft.Data.OData" version="5.6.4" />
+            <dependency id="Microsoft.Data.Services.Client" version="5.6.4" />
+            <dependency id="System.Data.SQLite" version="1.0.103" />
+            <dependency id="System.Data.SQLite.Core" version="1.0.103" />
+            <dependency id="System.Data.SQLite.EF6" version="1.0.103" />
+            <dependency id="System.Data.SQLite.Linq" version="1.0.103" />
+            <dependency id="System.Spatial" version="5.6.4" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="D:\1.AlbecProjetos\AlbecUteis\AlbecUteis\bin\Release\AlbecUteis.dll" target="lib\AlbecUteis.dll" />
+    </files>
+</package>
